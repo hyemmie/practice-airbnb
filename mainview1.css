@@ -338,7 +338,10 @@ input[type="text"] {
     margin-right:70px;
     margin-left:10px;
     font-size:35px;
-    text-decoration-color:linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
+    width:600px;
+    background: linear-gradient(to right, #92174D 9.38%, #E41D5C 88.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .article {

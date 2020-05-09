@@ -256,10 +256,11 @@
 
             
     .map{
-        width: 45%;
+        position: fixed;
+        right: 0px;
+        width: 40%;
     }
         .map_image{
-            position: fixed;
-            right: 0px;
-            height: 643px;
+            max-height: 643px;
+            width: auto;
         }
